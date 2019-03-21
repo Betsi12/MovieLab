@@ -7,15 +7,16 @@ body{
 }
 #navbar{
     z-index: 100;
-position: fixed;
+    position: fixed;
     overflow: hidden;
     bleed:top;
     width: 100%;
         
 }
 .movielab{
-    width: 10%;
-    height: 10%;
+    padding-left: 10%;
+    width: 100%;
+    height: 100%;
 }
 .carrusel{
     width: 100%;
@@ -59,18 +60,28 @@ float:left;
 
 footer{
 width:100%;
-background:#333333;
+background:whitesmoke;
 }
 .imgfooter{
 width:10%;
 height:10%;
 }
 
-#card{
+.card{
+    margin-top: 1%;
     box-align: center;
 }
 .peli{
+    box-align: center;
+    margin-top: 1%;
     flex-flow: row wrap;
     display: flex;
     justify-content: space-evenly;
+}
+footer{
+     z-index: 100;
+    text-align: center;
+  }
+.groupLab{
+    text-align: center;  
 }

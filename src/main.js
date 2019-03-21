@@ -36,6 +36,7 @@ document.getElementById('btnsearch').addEventListener('click',() =>{
   .then(data=>data.json())
   .then(data=>{
       searchData = data.Search;
+      root.innerHTML = '';
       for(let i=0;i<searchData.length;i++){
       document.getElementById('root').innerHTML += `
       <br>
