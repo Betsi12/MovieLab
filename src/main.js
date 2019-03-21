@@ -30,12 +30,12 @@ document.getElementById('btnsearch').addEventListener('click',() =>{
       for(let i=0;i<searchData.length;i++){
       document.getElementById('root').innerHTML += `
       <br>
-     <div class="card" style="width: 18rem;">
+     <div class="card">
   <img src="${searchData[i].Poster}" class="card-img-top" alt="${searchData[i].Title}"i>
   <div class="card-body">
     <h5 class="card-title">${searchData[i].Title}</h5>
     <p class="card-text">Año: ${searchData[i].Year}</p>
-    <a href="#" class="btn btn-primary" id="${searchData[i].imdbID}"card">Ver Descripción</a>
+    <p class="card-text">Descripción: ${searchData[i].Plot}</p>
   </div>
 </div>
 <br>
