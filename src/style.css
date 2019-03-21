@@ -55,6 +55,6 @@ height:10%;
     display: flex;
     justify-content: space-evenly;
 }
-h2,p{
+.letter{
     color: white;
 }
