@@ -64,9 +64,13 @@ footer{
     text-align: center;
   }
 .groupLab{
-    text-align: center; 
-    color:white;
+    text-align: center;
+    color: white; 
 }    
 .letter{
     color: white;
 }
+/* .row{
+background-color: #1f1e1e;
+color: white;
+} */
