@@ -69,3 +69,8 @@ height:10%;
 #card{
     box-align: center;
 }
+.peli{
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
