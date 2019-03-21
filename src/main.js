@@ -40,7 +40,7 @@ document.getElementById('btnsearch').addEventListener('click',() =>{
       document.getElementById('root').innerHTML += `
       <br>
      <div class="card" style="width: 18rem;">
-  <img src="${searchData[i].Poster}" class="card-img-top" alt="${searchData[i].Title}" title="${searchData[i].Title}">
+  <img src="${searchData[i].Poster}" class="card-img-top" alt="${searchData[i].Title}"i>
   <div class="card-body">
     <h5 class="card-title">${searchData[i].Title}</h5>
     <p class="card-text">Año: ${searchData[i].Year}</p>
