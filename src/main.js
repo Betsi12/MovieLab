@@ -1,19 +1,9 @@
-//aqui van las funciones
+//aqui van las funciones  
 window.onload = () => {
     document.getElementById("page1").style.display="block";
     document.getElementById("page2").style.display ="none";
     document.getElementById("page3").style.display="none";
   }
-  document.getElementById("pagina2").addEventListener("click",() => {
-    document.getElementById("page1").style.display="none";
-    document.getElementById("page2").style.display ="block";
-    document.getElementById("page3").style.display="none";
-  });
-  document.getElementById("pagina3").addEventListener("click",() => {
-    document.getElementById("page1").style.display="none";
-    document.getElementById("page2").style.display ="none";
-    document.getElementById("page3").style.display="block";
-  });
   document.getElementById("init").addEventListener("click",() => {
     document.getElementById("page1").style.display="block";
     document.getElementById("page2").style.display ="none";
@@ -46,7 +36,9 @@ document.getElementById('btnsearch').addEventListener('click',() =>{
     <p class="card-text">Año: ${searchData[i].Year}</p>
     <a href="#" class="btn btn-primary" id="${searchData[i].imdbID}"card">Ver Descripción</a>
   </div>
-</div> `
+</div>
+<br>
+<br> `
       }
   })
 });
