@@ -24,7 +24,7 @@ window.onload = () => {
 
 document.getElementById('btnsearch').addEventListener('click',() =>{
   let search = document.getElementById('search').value;
-  fetch('http://www.omdbapi.com/?apikey=6150b42c&s=' + search)
+  fetch('https://www.omdbapi.com/?apikey=6150b42c&s=' + search)
   .then(data=>data.json())
   .then(data=>{
       searchData = data.Search;
