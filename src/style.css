@@ -66,6 +66,7 @@ footer{
 .groupLab{
     text-align: left; 
     color:white;
+
 }    
 .letter, .titulo {
     /* text-align: center; */
@@ -75,3 +76,4 @@ footer{
     margin-top: 4%;
     text-align: center;
 }
+
