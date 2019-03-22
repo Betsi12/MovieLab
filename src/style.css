@@ -7,16 +7,16 @@ body{
 }
 #navbar{
     z-index: 100;
-    position: fixed;
-    overflow: hidden;
-    bleed:top;
-    width: 100%;
+    /* position: fixed; */
+        overflow: hidden;
+        bleed:top;
+        width: 100%;
         
 }
 .movielab{
-    padding-left: 10%;
-    width: 100%;
-    height: 100%;
+    margin-top: 10px;
+    width: 59px;
+    height: 66px;
 }
 .carrusel{
     width: 100%;
@@ -60,13 +60,18 @@ height:10%;
     justify-content: space-evenly;
 }
 footer{
-     z-index: 100;
+     /* z-index: 100; */
     text-align: center;
   }
 .groupLab{
-    text-align: center; 
+    text-align: left; 
     color:white;
 }    
-.letter{
+.letter, .titulo {
+    /* text-align: center; */
     color: white;
+} 
+.titulo{
+    margin-top: 4%;
+    text-align: center;
 }
