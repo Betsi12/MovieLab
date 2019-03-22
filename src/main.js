@@ -20,26 +20,26 @@ window.onload = () => {
     document.getElementById("page3").style.display="block";
   });
 
+
+
 document.getElementById('btnsearch').addEventListener('click',() =>{
   let search = document.getElementById('search').value;
   fetch('http://www.omdbapi.com/?apikey=6150b42c&s=' + search)
   .then(data=>data.json())
   .then(data=>{
       searchData = data.Search;
-      root.innerHTML = '';
+      document.getElementById('root').innerHTML="";
       for(let i=0;i<searchData.length;i++){
       document.getElementById('root').innerHTML += `
       <br>
-     <div class="card">
+     <div class="card" style="width: 18rem;">
   <img src="${searchData[i].Poster}" class="card-img-top" alt="${searchData[i].Title}"i>
   <div class="card-body">
     <h5 class="card-title">${searchData[i].Title}</h5>
+    </hr>
     <p class="card-text">Año: ${searchData[i].Year}</p>
-    <p class="card-text">Descripción: ${searchData[i].Plot}</p>
   </div>
-</div>
-<br>
-<br> `
+</div>`
       }
   })
 });

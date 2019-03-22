@@ -9,32 +9,39 @@
 <link rel="stylesheet" href="style.css"> 
 </head> 
 <body> 
-<header> 
-<!-- <div> <img src="../images/movie-lab-production-logo-vector-260nw-1330072844.jpg" alt="MovieLab" title="MovieLab" class="movielab"> </div> --> 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar"> 
-<a class="navbar-brand" href="#" id="init">MOVIELAB</a> 
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
-<span class="navbar-toggler-icon"></span> </button> 
-<div class="collapse navbar-collapse" id="navbarSupportedContent"> 
-    <ul class="navbar-nav mr-auto"> 
-        <li class="nav-item active"> 
-        <a class="nav-link" href="#" id="about">¿Qué es MovieLab? <span class="sr-only">(current)</span></a> 
-    </li> 
-    <li class="nav-item active"> 
-        <a class="nav-link" href="#" id="datos">Catálogo</a> 
-    </li> 
-</ul> 
-<!-- <form class="form-inline my-2 my-lg-0"> 
-    <input class="form-control mr-sm-2" id="search"type="search" placeholder="Ingresa tu Búsqueda" aria-label="Search"> 
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="btnsearch">Buscar</button> 
-</form>  -->
-</div> 
-</nav> 
-</header> 
-<br><br>
-<main> 
-    <section id="page1"> 
-        <section class="carrusel"> 
+
+    <header> 
+        <!-- <div> <img src="../images/movie-lab-production-logo-vector-260nw-1330072844.jpg" alt="MovieLab" title="MovieLab" class="movielab"> </div> --> 
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar"> 
+        <a class="navbar-brand" href="#" id="init">MOVIELAB</a> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+        <span class="navbar-toggler-icon"></span> </button> 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+            <ul class="navbar-nav mr-auto"> 
+                <li class="nav-item active"> 
+                <a class="nav-link" href="#" id="about">¿Qué es MovieLab? <span class="sr-only">(current)</span></a> 
+            </li> 
+            <li class="nav-item active"> 
+                <a class="nav-link" href="#" id="datos">Catálogo</a> 
+            </li> 
+        </ul> 
+        <form class="form-inline my-2 my-lg-0"> 
+            <input class="form-control mr-sm-2" id="search"type="search" placeholder="Ingresa tu Búsqueda" aria-label="Search"> 
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="btnsearch">Buscar</button> 
+        </form> 
+        </div> 
+        </nav> 
+        </header>
+
+
+<main class="container-fluid" id="page1"> 
+    <div>
+            <h3 class='letter'>Quieres ver peliculas pero no sabes el nombre...</h3> 
+            <h3 class='letter'>MOVIELAB es es tu solución, esta app esta diseñada para buscar peliculas con tan solo una paralabra</h3> 
+               
+    </div>
+    <section> 
+        <section class="carrusel container"> 
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"> 
                 <ol class="carousel-indicators"> 
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li> 
@@ -61,47 +68,34 @@
                 </a> 
             </div> 
         </section> 
-        <br> 
-    </div> 
-</section> 
-</section> 
-<section id="page2"> 
-    <img src="../images/movie-lab-production-logo-vector-260nw-1330072844.jpg" alt="MovieLab" title="MovieLab" class="movielab"> 
-    <h2 class='letter'>MOVIELAB</h2> 
-    <p class='letter'>Somos una start up creada por cuatro mujeres para un proyecto de Laboratoria, nuestro principal objetivo es buscar que esta plataforma 
-        sea utilizada por todas las personas que desean conocer el nombre, afiche, la descripción de una película y también saber el año en que 
-        fue creada. </p> 
-    <p class='letter'>Para acceder a nuestro catálogo de películas sólo debes hacer click en la barra de navegación que aparece arriba donde
-       se encuentra posicionada la palabra catálogo, ahí es donde podrás interactuar con nuestra plataforma y acceder a la 
-       información que necesites saber. </p> 
-       <p class='letter'>¡Te deseamos muchísimo éxito en tu navegación!</p> 
-    </section> 
-<section id="page3"> 
-
-    <div class="col-sm-12 col-md-4 col-lg-12 peli" id="root">
-
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
-                    <form class="form-inline my-2 my-lg-0"> 
-                            <input class="form-control mr-sm-2" id="search"type="search" placeholder="Ingresa tu Búsqueda" aria-label="Search"> 
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="btnsearch">Buscar</button> 
-                        </form>
-            </nav><br><br><br><br><br><br><br><br>
-            </div>
 </section> 
 </main> 
-<footer class="container-fluid">
+<section id="page2" class="container"> 
+    
+    <h2 class="titulo">MOVIELAB</h2> 
+    <h3 class='letter'>Es un proyecto creado por un equipo humano de cuatro desarrolladoras de la 8° generacion de Laboratoria Santiago Chile, nuestro principal objetivo es lanzar una plataforma que
+        sea utilizada por distintos usuarios, que desean conocer el nombre, afiche y año de una determinada pelicula. </h3> 
+    </br>
+    <h3 class='letter'>Esta App. fue creada para acceder a nuestro catálogo de películas sólo debes hacer click en la barra de navegación que aparece arriba donde
+       se encuentra posicionada la palabra catálogo, ahí es donde podrás interactuar con nuestra plataforma y acceder a la 
+       información que necesites saber. </h3> 
+    </br>
+       <h2 class='letter'>¡Te deseamos muchísimo éxito en tu navegación!</h2> 
+    </section> 
+<section id="page3"> 
+           
+            <div class="col-sm-12 col-md-4 col-lg-12 peli" id="root"></div>
+</section> 
+
+<footer class="container-fluid bg-dark">
   <div class="row">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
-  <div class="col-sm-1 col md-1 col-lg1">
-    <img src="../images/movie-lab-production-logo-vector-260nw-1330072844.jpg" alt="MovieLab" title="MovieLab"
-      class="movielab">
+  <div class="col-sm-1 col-md-1 col-lg-1">
+    <img class="movielab" src="../images/movie-lab-production-logo-vector-260nw-1330072844.jpg" alt="MovieLab">
   </div>
-  <div class="col-sm-11 col md-11 col-lg11">
+  <div class="col-sm-11 col-md-11 col-lg-11">
     <p class ="groupLab" class="letter"> Creado por:</p>
-    <p class="letter"> Betsi Salas - Dayana Mateluna - Camila Guerrero -Valeska Salinas</p>
-    <p class="letter"> MOVIELAB - Laboratoria 2019 </p>
+    <p class="letter"> Betsi Salas - Dayana Mateluna - Camila Guerrero - Valeska Salinas. MOVIELAB - Laboratoria 2019 </p>
   </div>
-  </nav>
  </div>
  </footer>
 </body> 
